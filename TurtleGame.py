@@ -113,15 +113,10 @@ for s in range(30):
         pl_one.forward(moveForward)
         ti.sleep(1)
         moveForward2 = ra.choice(rndNum)
-        pl_two.forward(moveForward2)    
+        pl_two.forward(moveForward2)   
+
+
 setCounter(int(5))    
-
-
-
-
-
-
-
 
 # To Keep Drawing Board  on Screen
 t.done()
